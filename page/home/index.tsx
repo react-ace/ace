@@ -26,6 +26,18 @@ const Home = (props: IProps, state: IState) => {
         <Button variant="outlined" color="primary">Secondary</Button>
       </p>
       <p>
+        <Button variant="contained" color="info">Info</Button>
+      </p>
+      <p>
+        <Button variant="contained" color="success">Success</Button>
+      </p>
+      <p>
+        <Button variant="contained" color="warning">Warning</Button>
+      </p>
+      <p>
+        <Button variant="contained" color="error">Error</Button>
+      </p>
+      <p>
         <Button variant="outlined" color="secondary">Secondary</Button>
       </p>
       <p>
