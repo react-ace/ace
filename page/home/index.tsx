@@ -16,8 +16,24 @@ const Home = (props: IProps, state: IState) => {
 
   return (
     <section>
-      <p>Hello</p>
-      <Button variant="contained" color="primary">Hello</Button>
+      <p>
+        <Button variant="contained" color="primary">Primary</Button>
+      </p>
+      <p>
+        <Button variant="contained" color="secondary">Secondary</Button>
+      </p>
+      <p>
+        <Button variant="outlined" color="primary">Secondary</Button>
+      </p>
+      <p>
+        <Button variant="outlined" color="secondary">Secondary</Button>
+      </p>
+      <p>
+        <Button color="primary">Secondary</Button>
+      </p>
+      <p>
+        <Button color="secondary">Secondary</Button>
+      </p>
     </section>
   );
 };
